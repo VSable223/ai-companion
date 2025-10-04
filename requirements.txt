@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+python-socketio==5.9.0
+httpx
+aiofiles
+jinja2

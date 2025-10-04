@@ -1,0 +1,14 @@
+body { font-family: Inter, Arial, sans-serif; background:#f4f6fb; margin:0; color:#111 }
+.app { max-width:720px; margin:36px auto; padding:18px }
+header { text-align:left; margin-bottom:12px }
+h1 { margin:0; font-size:28px }
+.subtitle { color:#555; margin-top:6px }
+.chat-window { background:#fff; border-radius:8px; padding:12px; min-height:320px; box-shadow:0 6px 16px rgba(20,24,40,0.06); overflow:auto }
+.bubble { display:inline-block; padding:8px 12px; border-radius:12px; margin:8px 0; max-width:78% }
+.bubble.user { background:#e6f7ff; float:right; clear:both }
+.bubble.ai { background:#fff; border:1px solid #eee; float:left; clear:both }
+.composer { display:flex; gap:8px; margin-top:12px }
+.composer input { flex:1; padding:10px; border-radius:8px; border:1px solid #ddd }
+.composer button { padding:10px 14px; border-radius:8px; border:none; background:#2b6ef6; color:#fff }
+.note { color:#666; margin-top:8px }
+footer { margin-top:16px; color:#777 }
